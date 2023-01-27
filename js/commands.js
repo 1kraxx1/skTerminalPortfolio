@@ -1,7 +1,7 @@
-var password = "sasha";
-var linkedin = "https://www.linkedin.com/in/sasa-krausovic-4a40b762/";
-var github = "https://github.com/1kraxx1?tab=repositories";
-var email = "mailto:krausovic@gmail.com";
+const password = "sasha";
+const linkedin = "https://www.linkedin.com/in/sasa-krausovic-4a40b762/";
+const github = "https://github.com/1kraxx1?tab=repositories";
+const email = "mailto:krausovic@gmail.com";
 
 whois = [
   "<br>",

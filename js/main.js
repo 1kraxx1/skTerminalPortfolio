@@ -1,13 +1,13 @@
-var before = document.getElementById("before");
-var liner = document.getElementById("liner");
-var command = document.getElementById("typer");
-var textarea = document.getElementById("texter");
-var terminal = document.getElementById("terminal");
+const before = document.getElementById("before");
+const liner = document.getElementById("liner");
+const command = document.getElementById("typer");
+const textarea = document.getElementById("texter");
+const terminal = document.getElementById("terminal");
 
-var git = 0;
-var pw = false;
+const git = 0;
+const pw = false;
 let pwd = false;
-var commands = [];
+const commands = [];
 
 setTimeout(function () {
   loopLines(banner, "", 80);
@@ -166,7 +166,7 @@ function newTab(link) {
 }
 
 function addLine(text, style, time) {
-  var t = "";
+  let t = "";
   for (let i = 0; i < text.length; i++) {
     if (text.charAt(i) == " " && text.charAt(i + 1) == " ") {
       t += "&nbsp;&nbsp;";
@@ -176,7 +176,7 @@ function addLine(text, style, time) {
     }
   }
   setTimeout(function () {
-    var next = document.createElement("p");
+    const next = document.createElement("p");
     next.innerHTML = t;
     next.className = style;
 
